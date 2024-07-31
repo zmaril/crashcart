@@ -1,5 +1,4 @@
-# Crashcart
-_For when you need to save the server's life_ 
+# 🚨🚨🚨 Crashcart 🚨🚨🚨
 
 ![A crash cart from wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Crash_Cart.jpg)
 

@@ -1,8 +1,7 @@
 # Crashcart
 _For when you need to save the server's life_ 
 
-
-![https://upload.wikimedia.org/wikipedia/commons/6/6a/Crash_Cart.jpg](A crash cart from wikipedia)
+![A crash cart from wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Crash_Cart.jpg)
 
 Crashcart is an in progress suite of tools used to diagnose and treat various problems that a server might encounter during its lifetime, particularly in times of crisis. Crashcart combines an interactive notebooks built on top of rerun.io with a SQL to BPF compiler in order to let system administrators of all stripes quickly and confidently deal with a wide variety of issues that might affect a system. 
 

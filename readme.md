@@ -30,6 +30,27 @@ I never really got AWK, and so bpftrace never really clicked with me. Likewise, 
 
 # Architecture 
 
+
+### UI 
+
+Constraints: good graphing and visualization, easy to use, easy to install, easy to share, access to the underlying system so it can use containers and ssh with KnownHosts.
+
+
+### SQL-to-BPF
+
+
+### Interchange 
+
+
+SQL-to-BPF 
+
+Rust 
+rerun.io
+openssh and knownhosts 
+
+
+
+
 Uses rust
 Clang
 Compiles bpf programs in clang in container on your computer, then ssh's them over. 

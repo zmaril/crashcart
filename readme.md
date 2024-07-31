@@ -35,6 +35,10 @@ I never really got AWK, and so bpftrace never really clicked with me. Likewise, 
 
 Constraints: good graphing and visualization, easy to use, easy to install, easy to share, access to the underlying system so it can use containers and ssh with KnownHosts.
 
+Considered 
+
+Trying: 
+
 
 ### SQL-to-BPF
 

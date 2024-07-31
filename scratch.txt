@@ -1,0 +1,7 @@
+docker run -ti -v linuxkit-kernel-headers:/usr/src:ro \
+        -v /lib/modules/:/lib/modules:ro \
+        -v debugfs:/sys/kernel/debug:rw \
+        --platform linux/amd64 \
+        --net=host --pid=host --privileged \
+        quay.io/iovisor/bpftrace:latest \
+        bpftrace -e 'tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }'

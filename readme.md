@@ -2,7 +2,7 @@
 _For when you need to save the server's life_ 
 
 
-![[https://upload.wikimedia.org/wikipedia/commons/6/6a/Crash_Cart.jpg]]
+![https://upload.wikimedia.org/wikipedia/commons/6/6a/Crash_Cart.jpg](A crash cart from wikipedia)
 
 Crashcart is an in progress suite of tools used to diagnose and treat various problems that a server might encounter during its lifetime, particularly in times of crisis. Crashcart combines an interactive notebooks built on top of rerun.io with a SQL to BPF compiler in order to let system administrators of all stripes quickly and confidently deal with a wide variety of issues that might affect a system. 
 
@@ -33,13 +33,13 @@ I never really got AWK, and so bpftrace never really clicked with me. Likewise, 
 # Architecture 
 
 Uses rust
+Clang
+Compiles bpf programs in clang in container on your computer, then ssh's them over. 
+
+Hand written lexer and parser for SQL, because I like doing that, plus writing a custom one based off sqlparser-rs seems hard. 
 
 
 # Zack's todo list  
-* Set up github repo 
-* rust 
-* Settle on architecture 
-* Figure out how to compile sql to bpf 
 * Set up rerun 
 * Figure out how to get clang to run the right way on mac. 
 * Use colima and docker in order to build stuff 
